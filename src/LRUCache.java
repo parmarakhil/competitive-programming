@@ -106,13 +106,3 @@ class LRUCache {
         }
     }
 }
-
-class MyNode {
-    MyNode next, prev;
-    int key, value;
-
-    MyNode(int key, int value) {
-        this.key = key;
-        this.value = value;
-    }
-}
