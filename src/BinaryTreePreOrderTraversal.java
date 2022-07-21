@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreePreOrderTraversal {
+
     List ans = new ArrayList<>();
 
     public List<Integer> preorderTraversal(TreeNode root) {
