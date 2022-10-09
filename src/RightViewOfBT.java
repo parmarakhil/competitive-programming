@@ -62,9 +62,7 @@ public class RightViewOfBT {
     // Driver code
     public static void main(String[] args)
     {
-
         // Let's construct the tree as
-        // shown in example
         RightViewOfBT tree = new RightViewOfBT();
         tree.root = tree.new Node(1);
         tree.root.left = tree.new Node(2);
