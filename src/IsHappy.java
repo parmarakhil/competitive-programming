@@ -1,7 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class IsHappy {
 
     public boolean isHappy(int n) {
-        List<Integer>used = new ArrayList<Integer>();
+        List<Integer> used = new ArrayList<Integer>();
 
         while(n>0)
         {
